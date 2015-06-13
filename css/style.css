@@ -1,0 +1,270 @@
+/*
+*   App: Digitize
+*   Description: Custom theme for this application
+*   App URL: -
+*
+*   Date Created: 13 June 2015
+*
+*/
+
+body{
+    background-color: #fbfbfb;
+}
+
+html h1, html h2, html h3, html h4, html h5, html h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+ul li a, ul li a:hover, ul li a:focus {
+    text-decoration: none;
+    color: #000;
+    outline: none;
+}
+
+.open-sans, * {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.n-pm{
+    margin: 0;
+    padding: 0;
+}
+.strong{
+    font-weight: 700;
+}
+.text-light{
+    font-weight: 300;
+}
+.va-middle{
+    vertical-align: middle;
+}
+
+
+/* ------------ END OF DIFAULT VALUES ------------ */
+
+
+
+/*
+    **************
+    CUSTOM SPACING
+    **************
+*/
+
+.mw{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.pt {
+    padding-top: 15px;
+}
+.pb {
+    padding-bottom: 15px;
+}
+.pl {
+    padding-left: 15px;
+}
+.pr {
+    padding-right: 15px;
+}
+.pts {
+    padding-top: 7px;
+}
+.pbs {
+    padding-bottom: 7px;
+}
+.pls {
+    padding-left: 7px;
+}
+.prs {
+    padding-right: 7px;
+}
+
+.ptb {
+    padding: 30px 0;
+}
+
+.mt {
+    margin-top: 15px;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+.ml {
+    margin-left: 15px;
+}
+.mr {
+    margin-right: 15px;
+}
+.mbs {
+    margin-bottom: 7px;
+}
+.mts {
+    margin-top: 7px;
+}
+.mls {
+    margin-left: 7px;
+}
+.mrs {
+    margin-right: 7px;
+}
+.mt-l {
+    margin-top: -45px;
+}
+.mt-s {
+    margin-top: -7px;
+}
+.mt-xs {
+    margin-top: -4px;
+}
+.mtl {
+    margin-top: 45px;
+}
+.mts {
+    margin-top: 7px;
+}
+.mtxs {
+    margin-top: 4px;
+}
+.mtb{
+    margin: 60px 0;
+}
+
+.space-xs{
+    padding: 15px 0;
+}
+.space-sm{
+    padding: 30px 0;
+}
+.space-md{
+    padding: 60px 0;
+}
+.space-lg{
+    padding: 120px 0;
+}
+
+.fw{
+    width: 100%;
+}
+
+/* Height Vars */
+.height-xs{
+    height: 170px;
+    overflow-y: visible;
+}
+.height-sm{
+    height: 300px;
+    overflow-y: visible;
+}
+.height-md{
+    min-height: 375px;
+    overflow-y: visible;
+}
+.height-lg{
+     height: 450px;
+     overflow-y: visible;
+ }
+.height-xlg{
+    height: 600px;
+    overflow-y: visible;
+}
+
+/* ------------ END OF CUSTOM SPACING ------------ */
+
+
+
+/*
+    **************
+    BRAND COLORS &
+    BACKGROUNDS
+    **************
+*/
+
+/* Brand Pink */
+.brand-bg {
+    background: #ff5c9c;
+    color: #fff;
+}
+.brand-bg-dark{
+    background: #cf4c7c;
+    color: #fff;
+}
+.brand-text{
+    color: #cf4c7c;
+}
+.divider{
+    border-top: #ccc solid 1px;
+    margin: 15px;
+}
+
+.bg-grey{
+    background-color: #eee;
+}
+/*
+    **************
+    CUSTOM
+    **************
+*/
+
+.header{
+    margin-bottom: 45px;
+}
+
+.job-post-meta{
+    padding: 0;
+}
+.job-post-meta input.title, .job-post-meta input.deadline{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: #ccc solid 1px;
+    padding-bottom: 7px;
+    margin: 0;
+}
+input.title{
+    font-size: 24px;
+}
+input.deadline{
+    font-size: 16px;
+    overflow: hidden;
+    display: inline;
+    font-weight: 400;
+    padding-bottom: 4px;
+}
+input.title:focus, input.title:hover,  input.deadline:hover, input.deadline:focus{
+    border-bottom: #cf4c7c solid 1px;
+}
+textarea.description{
+    outline: none;
+    border: #fff solid 1px;
+    padding: 15px;
+    background: #eee;
+    overflow: auto;
+}
+
+
+
+.job-revision{
+    margin: 25px 0;
+}
+.job-revision .description{
+    margin: 15px 0;
+}
+.revision-image{
+    padding: 7px 15px;
+    margin-right: 15px;
+    display: inline-block;
+    font-size: 14px;
+}
+.job-revision .comment{
+    margin: 15px 0;
+}
