@@ -9,7 +9,10 @@
 
 body{
     background-color: #fbfbfb;
+<<<<<<< HEAD
     color: #444;
+=======
+>>>>>>> d482b7bba6977094352ce81f9554285bcec61f8f
 }
 
 html h1, html h2, html h3, html h4, html h5, html h6 {
@@ -88,6 +91,7 @@ ul li a, ul li a:hover, ul li a:focus {
     padding-right: 7px;
 }
 
+<<<<<<< HEAD
 .ptl {
     padding-top: 30px;
 }
@@ -95,6 +99,8 @@ ul li a, ul li a:hover, ul li a:focus {
     padding-top: 60px;
 }
 
+=======
+>>>>>>> d482b7bba6977094352ce81f9554285bcec61f8f
 .ptb {
     padding: 30px 0;
 }
@@ -182,7 +188,11 @@ ul li a, ul li a:hover, ul li a:focus {
      overflow-y: visible;
  }
 .height-xlg{
+<<<<<<< HEAD
     min-height: 600px;
+=======
+    height: 600px;
+>>>>>>> d482b7bba6977094352ce81f9554285bcec61f8f
     overflow-y: visible;
 }
 
@@ -213,14 +223,18 @@ ul li a, ul li a:hover, ul li a:focus {
     border-top: #ccc solid 1px;
     margin: 15px;
 }
+<<<<<<< HEAD
 .bg-accent{
     background-color: #16496f;
     color: #fff;
 }
+=======
+>>>>>>> d482b7bba6977094352ce81f9554285bcec61f8f
 
 .bg-grey{
     background-color: #eee;
 }
+<<<<<<< HEAD
 
 .bg-img-01{
     background-size: cover;
@@ -245,6 +259,8 @@ input.clear{
 .text-white, .text-white:hover{
     color: #fff;
 }
+=======
+>>>>>>> d482b7bba6977094352ce81f9554285bcec61f8f
 /*
     **************
     CUSTOM
@@ -253,6 +269,7 @@ input.clear{
 
 .header{
     margin-bottom: 45px;
+<<<<<<< HEAD
     vertical-align: middle;
 }
 .top-nav{
@@ -316,6 +333,9 @@ input.clear{
     margin-bottom: 15px;
 }
 
+=======
+}
+>>>>>>> d482b7bba6977094352ce81f9554285bcec61f8f
 
 .job-post-meta{
     padding: 0;
