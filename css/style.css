@@ -9,6 +9,7 @@
 
 body{
     background-color: #fbfbfb;
+    color: #444;
 }
 
 html h1, html h2, html h3, html h4, html h5, html h6 {
@@ -85,6 +86,13 @@ ul li a, ul li a:hover, ul li a:focus {
 }
 .prs {
     padding-right: 7px;
+}
+
+.ptl {
+    padding-top: 30px;
+}
+.ptxl {
+    padding-top: 60px;
 }
 
 .ptb {
@@ -174,7 +182,7 @@ ul li a, ul li a:hover, ul li a:focus {
      overflow-y: visible;
  }
 .height-xlg{
-    height: 600px;
+    min-height: 600px;
     overflow-y: visible;
 }
 
@@ -205,9 +213,37 @@ ul li a, ul li a:hover, ul li a:focus {
     border-top: #ccc solid 1px;
     margin: 15px;
 }
+.bg-accent{
+    background-color: #16496f;
+    color: #fff;
+}
 
 .bg-grey{
     background-color: #eee;
+}
+
+.bg-img-01{
+    background-size: cover;
+    background: url("../images/bg-image-01.jpg") no-repeat;
+}
+.bg-img-02{
+    background-size: cover;
+    background: url("../images/bg-image-02.jpg") no-repeat;
+}
+
+input.clear{
+    border: none;
+    outline: none;
+    border-bottom: #fff solid 1px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    background: transparent;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.text-white, .text-white:hover{
+    color: #fff;
 }
 /*
     **************
@@ -217,7 +253,69 @@ ul li a, ul li a:hover, ul li a:focus {
 
 .header{
     margin-bottom: 45px;
+    vertical-align: middle;
 }
+.top-nav{
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin-bottom: 60px;
+}
+
+.navigation {
+    margin: 0;
+}
+.navigation li{
+    color: #ddd;
+    margin-right: 25px;
+}
+.navigation li a{
+    color: #ddd;
+}
+.navigation li a:hover, .navigation li.active a{
+    color: #fff;
+}
+
+.sign-up, .sign-up:hover{
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-weight: bold;
+    border-bottom: #fff solid 1px;
+    padding-bottom: 5px;
+}
+.hiw{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    min-height: 250px;
+}
+
+.testimonial{
+    text-align: center;
+}
+.testimonial .icon{
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 18px;
+    z-index: 50;
+    background: #fff;
+    border: #eee solid 2px;
+    color: #999;
+}
+.testimonial .testimony{
+    padding: 35px 18px 15px 18px;
+    background: #eee;
+    margin-top: -25px;
+    z-index: 40;
+    color: #999;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
 
 .job-post-meta{
     padding: 0;
