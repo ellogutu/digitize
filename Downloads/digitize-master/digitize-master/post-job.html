@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Job - Digitize</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="./images/logo-small-01.png"/>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <header class="header top-nav row brand-bg-dark pts pbs"> <!-- Top Navigation -->
+            <div class="col-md-2 col-md-offset-1">
+                <a href="index.html" class="h4 n-pm text-white"><strong>digitize</strong> | job done</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <ul class="list-inline navigation">
+                    <li class="active"><a href="post-job.html"><i class="fa fa-edit"></i> Post a job</a></li>
+                    <li><a href="all-jobs.html">All jobs</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 text-right">
+                <a href="" class="pr text-white"><strong>John Doe</strong></a>
+                <a href="index.html" class="text-white"><i class="fa fa-power-off"></i></a>
+            </div>
+        </header>
+    </div>
+    <div class="space-sm"></div>
+
+    <div class="container height-xlg mt">
+        <section class="job-post col-md-8"> <!-- Post a job -->
+            <h2 class="n-pm">Post a job</h2>
+            <p class="small">Remember to write everything you want or include a document</p>
+
+            <form action="all-jobs.html">
+                <div class="col-md-12 panel panel-default">
+                    <div class="panel-body">
+                        <div class="row job-post-meta">
+                            <div class="mb">
+                                <input class="title" placeholder="Add title here"/>
+                            </div>
+
+                            <textarea class="col-md-9 description height-xs" placeholder="Add description"></textarea>
+
+                            <div class="col-md-3 height-xs brand-bg-dark ptb text-center">
+                                <h1 class="n-pm"><i class="fa fa-image"></i></h1><br />
+                                <p class="n-pm">Upload your file</p>
+                            </div>
+
+                            <div class="row">
+                                <div class="mt col-md-6">
+                                    <input class=" deadline" type="text" placeholder="Add deadline" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-right">
+                    <a href="all-jobs.html" class="btn btn-default mr">Cancel</a>
+                    <button class="btn btn-primary btn-lg" type="submit">Post job</button>
+                </div>
+            </form>
+
+        </section>
+
+        <section class="col-md-4 pt">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4 class="n-pm mb">Updates</h4>
+                    <div class="sidebar updates">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="n-pm h5">
+                                    National Geographic: Matters of the wild<br />
+                                    <small class="pr">Updated: 23 June 2015</small>
+                                    <small class="pr"><i class="fa fa-circle text-muted"></i> Revision 3</small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="n-pm h5">
+                                    Homebrew Software Update<br />
+                                    <small>Updated: 21 June 2015</small>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="n-pm h5">
+                                    Best Westernn wins for best 5-star hotel<br />
+                                    <small>Updated: 18 June 2015</small>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container-fluid">
+        <section class="footer row ptb brand-bg-dark">
+            <div class="col-md-10 col-md-offset-1 text-center">
+                <h3>digitize</h3>
+                <p><small>&copy; 2015 | All Rights Reserved | Terms</small></p>
+            </div>
+        </section>
+    </div>
+
+
+</body>
+</html>
